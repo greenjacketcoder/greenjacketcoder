@@ -5,9 +5,7 @@
      python scripts/make_ascii_svg.py ; info panel: python scripts/make_info_card.py -->
 <table>
 <tr>
-<!-- TODO: uncomment once ascii-portrait.svg is generated from a photo
 <td valign="top"><img src="./ascii-portrait.svg" width="370" alt="greenjacketcoder — ASCII portrait" /></td>
--->
 <td valign="top"><img src="./info-card.svg" width="490" alt="greenjacketcoder — stack and projects" /></td>
 </tr>
 </table>

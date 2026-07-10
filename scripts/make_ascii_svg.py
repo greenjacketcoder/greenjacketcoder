@@ -24,7 +24,7 @@ SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-pre
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "ascii-portrait.svg")
 
 COLS = 100
-ROWS = 53
+ROWS = 60  # matched to the 1024x1152 crop of source-prepped.png (100*8 : 60*15)
 CELL_W = 8
 CELL_H = 15
 RAMP = " .`:-=+*cs#%@"  # bright(sparse) -> dark(dense); leading space clears bg
