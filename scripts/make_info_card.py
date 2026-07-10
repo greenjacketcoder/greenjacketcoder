@@ -39,7 +39,7 @@ ACCENT = "#22d3ee"
 # ("gap",)                     -> vertical space
 ROWS = [
     ("host",),
-    ("kv", "Focus", "Automation, security & market tooling"),
+    ("kv", "Focus", "Automation · Security Tooling · AI Algo Trader"),
     ("kv", "Since", "Shipping on GitHub since 2022"),
     ("gap",),
     ("sec", "Stack"),
