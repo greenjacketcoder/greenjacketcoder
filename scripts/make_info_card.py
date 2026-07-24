@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
 STATIC = bool(os.environ.get("STATIC"))
 
-W, H = 480, 316
+W, H = 480, 336
 PAD = 20
 TITLEBAR_H = 30
 KEY_X = PAD
@@ -49,6 +49,7 @@ ROWS = [
     ("gap",),
     ("sec", "Projects"),
     ("bul", "hardeningtomcat — Windows audit & hardening engine"),
+    ("bul", "reveille — macOS menu-bar meeting alerts"),
     ("bul", "Swift-Bar-Stock-Ticker — macOS menu-bar ticker"),
 ]
 
